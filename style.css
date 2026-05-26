@@ -40,7 +40,6 @@ header nav ul li a {
   transition: color 0.3s;
 }
 
-/* Все состояния ссылок — белые */
 header nav ul li a:link,
 header nav ul li a:visited,
 header nav ul li a:hover,
@@ -50,7 +49,6 @@ header nav ul li a.active {
   color: #ffffff !important;
 }
 
-/* Если хотите при наведении всё же сделать чуть светлее (необязательно) */
 header nav ul li a:hover {
   color: #dddddd !important;
 }
