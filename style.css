@@ -26,6 +26,7 @@ header nav ul {
   justify-content: center;
   list-style: none;
   padding: 15px 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -33,28 +34,25 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff !important;
+  color: #ffffff !important;
   text-decoration: none !important;
   font-size: 18px;
+  transition: color 0.3s;
 }
 
-/* убиваем visited полностью */
-header nav ul li a:visited {
-  color: #fff !important;
-}
-
-/* hover */
-header nav ul li a:hover {
-  color: #ddd !important;
-}
-
-/* active */
+/* Все состояния ссылок — белые */
+header nav ul li a:link,
+header nav ul li a:visited,
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li a:focus,
 header nav ul li a.active {
-  color: #ff6600 !important;
-  font-weight: 600;
+  color: #ffffff !important;
 }
-nav a:visited {
-  color: inherit; /* или любой нужный цвет, например #333 */
+
+/* Если хотите при наведении всё же сделать чуть светлее (необязательно) */
+header nav ul li a:hover {
+  color: #dddddd !important;
 }
 /* ===== HERO ===== */
 .hero {
