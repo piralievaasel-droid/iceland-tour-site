@@ -5,6 +5,7 @@
 }
 
 body {
+  border: 10px solid red;
   font-family: 'Inter', sans-serif;
   background: #f4f4f4;
   color: #333;
@@ -372,8 +373,4 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 0;
-}
-
-body {
-  border: 10px solid red;
 }
