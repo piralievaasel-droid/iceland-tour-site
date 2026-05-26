@@ -33,24 +33,24 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #fff !important;
+  text-decoration: none !important;
   font-size: 18px;
-  text-decoration: none;
-  transition: 0.3s;
 }
 
-/* убираем фиолетовый visited */
+/* убиваем visited полностью */
 header nav ul li a:visited {
-  color: #fff;
+  color: #fff !important;
 }
 
+/* hover */
 header nav ul li a:hover {
-  color: #ddd;
+  color: #ddd !important;
 }
 
-/* активная ссылка */
+/* active */
 header nav ul li a.active {
-  color: #ff6600;
+  color: #ff6600 !important;
   font-weight: 600;
 }
 
