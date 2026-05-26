@@ -53,7 +53,9 @@ header nav ul li a.active {
   color: #ff6600 !important;
   font-weight: 600;
 }
-
+nav a:visited {
+  color: inherit; /* или любой нужный цвет, например #333 */
+}
 /* ===== HERO ===== */
 .hero {
   position: relative;
