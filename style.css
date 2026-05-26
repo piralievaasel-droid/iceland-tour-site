@@ -5,11 +5,11 @@
 }
 
 body {
-  border: 10px solid red;
-  font-family: 'Inter', sans-serif;
-  background: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+  header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
 header {
