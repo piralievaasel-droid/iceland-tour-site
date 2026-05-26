@@ -12,14 +12,22 @@ body {
 }
 
 header nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: white;
   font-size: 18px;
   transition: 0.3s;
 }
 
+header nav ul li a:visited {
+  color: #fff;
+}
+
 header nav ul li a:hover {
-  color: white;
+  color: #ddd;
+}
+header nav ul li a.active {
+  color: #ff6600;
+  font-weight: 600;
 }
 
 header {
